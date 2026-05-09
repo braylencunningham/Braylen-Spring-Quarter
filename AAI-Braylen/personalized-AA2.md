@@ -1,0 +1,1 @@
+One type of data that helps people is like a tracker. One type of data that can hurt people is cookies and personal info on certain websites. One rule that should exist is being able to have informed consent and have the ability to opt out.
