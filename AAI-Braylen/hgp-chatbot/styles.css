@@ -1,0 +1,77 @@
+body { 
+  font-family: system-ui, Arial; 
+  background:#00a2ff; 
+  margin:0; 
+}
+
+.app { 
+  max-width: 720px; 
+  margin: 24px auto; 
+  background:rgb(255, 255, 255); 
+  padding:16px; 
+  border-radius:12px; 
+}
+
+.chat { 
+  height: 320px; 
+  overflow:auto; 
+  border:1px solid #ddd; 
+  padding:12px; 
+  border-radius:12px; 
+  background:#fafafa; 
+}
+
+.msg { 
+  padding:10px 12px; 
+  margin:8px 0; 
+  border-radius:12px; 
+  max-width: 80%; 
+}
+
+.user { 
+  background:#00a2ff; 
+  margin-left:auto; 
+}
+
+.bot { 
+  background:#ffffff; 
+  margin-right:auto; 
+}
+
+/* ADD THIS BELOW */
+.quick { 
+  display:flex; 
+  gap:8px; 
+  flex-wrap:wrap; 
+  margin:10px 0; 
+}
+
+.qbtn { 
+  background:#00a2ff; 
+  color:white;
+  border:1px solid #00a2ff; 
+  padding:8px 10px; 
+  border-radius:999px; 
+  cursor:pointer; 
+}
+
+.form { 
+  display:flex; 
+  gap:8px; 
+  margin-top:12px; 
+}
+
+input { 
+  flex:1; 
+  padding:10px; 
+  border-radius:10px; 
+  border:1px solid #130e0e; 
+}
+
+button { 
+  padding:10px 14px; 
+  border-radius:10px; 
+  border:0; 
+  background:#00a2ff; 
+  color:white; 
+}
